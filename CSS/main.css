@@ -1,0 +1,168 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.positionCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.positionLeft {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.positionRight {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.containerPlates {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.fixedDish {
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.plate {
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    justify-content: flex-start;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 24px;
+    color: #222;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.positionCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.positionLeft {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.positionRight {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.containerPlates {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.plate, .fixedDish {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.2s;
+}
+
+.plate:hover, .fixedDish:hover {
+    background-color: #f0f0f0;
+}
+
+.plate h5, .fixedDish h5 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.plate p, .fixedDish p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #444;
+}
+
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #00bfff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
