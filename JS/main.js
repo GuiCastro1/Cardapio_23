@@ -1,9 +1,10 @@
-// import { fixedDishes } from "./fixedDishes.js";
-// import { plates } from "./plates.js";
+import { fixedDishes } from "./fixedDishes.js";
+import { plates } from "./plates.js";
 
-// plates();
-// fixedDishes();
+plates();
+fixedDishes();
 
+/*
 const container = document.querySelector('.faqContainer');
 container.innerHTML = 'Carregando cardápio...';
 
@@ -107,3 +108,4 @@ fetch('https://servercardapio.onrender.com/api/produtos')
         console.error(err);
     });
 
+*/
