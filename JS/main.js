@@ -1,8 +1,8 @@
-import { fixedDishes } from "./fixedDishes.js";
-import { plates } from "./plates.js";
+// import { fixedDishes } from "./fixedDishes.js";
+// import { plates } from "./plates.js";
 
-plates();
-fixedDishes();
+// plates();
+// fixedDishes();
 
 
 fetch("https://servercardapio.onrender.com/api/products")
