@@ -4,6 +4,12 @@ import { plates } from "./plates.js";
 plates();
 fixedDishes();
 
+
+fetch("https://servercardapio.onrender.com/api/products")
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(err => console.error(err));
+
 /*
 const container = document.querySelector('.faqContainer');
 container.innerHTML = 'Carregando cardápio...';
